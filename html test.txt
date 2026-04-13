@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FC Barcelona Fan Page</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #004D98, #A50044);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      font-size: 50px;
+      margin: 0;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    }
+
+    nav {
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #FFD700;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 30px;
+    }
+
+    h2 {
+      color: #A50044;
+      border-bottom: 3px solid #004D98;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      font-size: 18px;
+    }
+
+    ul li {
+      margin: 8px 0;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 270px;
+      height: 170px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      background: #004D98;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 50px;
+    }
+
+    footer a {
+      color: #FFD700;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>FC Barcelona Fan Page</h1>
+    <p>Visca el Barça! 🔵🔴</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#players">Players</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Barça</h2>
+    <p>Welcome to the unofficial FC Barcelona fan page! Here we celebrate the magic of football, the passion of the fans, and the legendary spirit of the Blaugrana club. This isn’t an official site — just a fun space for Barça lovers!</p>
+  </section>
+
+  <section id="players">
+    <h2>Fictional Star Players</h2>
+    <ul>
+      <li>⚽ Leo “Lightning” Costa</li>
+      <li>🔥 Marco Ferran</li>
+      <li>🧤 Alex Paredes (Goalkeeper Extraordinaire)</li>
+      <li>🎯 Daniel Vega</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Camp_Nou_panorama.jpg" alt="Camp Nou Stadium">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/FC_Barcelona_logo.svg" alt="Barcelona Logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Barcelona_skyline_2019.jpg" alt="Barcelona City View">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Want to know more about Barça? Visit the official site here:</p>
+    <p><a href="https://www.fcbarcelona.com/en/" target="_blank">www.fcbarcelona.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Fun Barça Fan Page | Made by a true supporter 💙❤️</p>
+  </footer>
+
+</body>
+</html>
